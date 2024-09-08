@@ -131,3 +131,8 @@ print(x, y) #2a
 
 """
 
+#function 
+def myFunction(s):
+  print(s*s)
+
+myFunction(2)
