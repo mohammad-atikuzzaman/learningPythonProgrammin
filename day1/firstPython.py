@@ -131,8 +131,11 @@ print(x, y) #2a
 
 """
 
-#function 
-def myFunction(s):
-  print(s*s)
+#Global variables
+#we can declare variables in any place , when we declare a variable out side of a function it will be global variable and we can access it from any places
+x= "Akash"
+def myFunction():
+  x="Bangladesh"
+  print(x)
 
-myFunction(2)
+myFunction()
